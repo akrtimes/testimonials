@@ -1,0 +1,95 @@
+.card-container {
+    position: relative;
+    width: 700px;
+    margin: 3rem auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 2.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.image-container {
+    position: relative;
+    margin-left: 30px;
+}
+
+#profile-img {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    z-index: 1;
+    top: -100px;
+    left: -40px;
+}
+
+.image-bg {
+    position: absolute;
+    top: -110px;
+    left: -30px;
+    border-radius: 50%;
+    z-index: 0;
+    height: 150px;
+    width: 150px;
+    background-color: #a78bfa;
+}
+
+.name {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.job {
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: #b39bfd;
+}
+
+.quote {
+    margin: 1rem 0;
+    display: block;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    color: #a78bfa;
+}
+
+.desc {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    padding: 1rem 2rem;
+}
+
+.next-prev-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+    gap: 1rem;
+}
+
+.next-prev {
+    display: block;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #a78bfa;
+}
+
+.random {
+    margin: 0 auto;
+    display: block;
+    padding: 0.8rem 2rem;
+    background-color: #a78bfa;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.random:hover {
+    background-color: #8962ff;
+}
